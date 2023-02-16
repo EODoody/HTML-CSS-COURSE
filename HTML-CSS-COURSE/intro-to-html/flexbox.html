@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title> Flexbox practice </title>
+
+</head>
+
+<body style="padding-bottom: 1000px;">
+
+  <div  style="
+    display: flex;
+    flex-direction: row;
+    ">
+    <div style="background-color: lightpink;">div 2 text <p> da </p></div>
+    <div style="background-color: lightblue;">div 1</div>
+  </div>
+
+<!--------------------- -->
+
+  <div  style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  ">
+    <div style="background-color: lightpink; 
+    width: 100px;">100px </div>
+    <div style="background-color: lightblue; flex: 1;">flex 1 </div>
+  </div>
+
+<!--- the layout is more rigid with grid -->
+
+  <div  style="
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+">
+  <div style="background-color: lightpink; 
+  width: 100px;">100px </div>
+  <div style="background-color: lightblue; flex: 1;">flex 1 </div>
+  <div style="background-color: lightcoral; flex: 2;">flex 2 </div>
+</div>
+
+<!--- the layout is more flexible -->
+
+<div  style="
+display: flex;
+flex-direction: row;
+height: 70px;
+border-width: 1px;
+border-style: solid;
+border-color: grey;
+justify-content: end;
+margin-top: 30px;
+">
+
+<div style="background-color: lightpink; 
+width: 100px;">100px </div>
+<div style="background-color: lightblue; 
+width: 100px;">100px </div>
+<div style="background-color: lightcoral; 
+width: 100px;">100px </div>
+</div>
+
+
+<!--- special value space-between -->
+
+<div  style="
+display: flex;
+flex-direction: row;
+height: 70px;
+border-width: 1px;
+border-style: solid;
+border-color: grey;
+justify-content: space-between;
+margin-top: 30px;
+">
+
+<div style="background-color: lightpink; 
+width: 100px;">100px </div>
+<div style="background-color: lightblue; 
+width: 100px;">100px </div>
+<div style="background-color: lightcoral; 
+width: 100px;">100px </div>
+</div>
+
+<!--- how to align vertically -->
+
+
+<div  style="
+display: flex;
+flex-direction: row;
+height: 70px;
+border-width: 1px;
+border-style: solid;
+border-color: grey;
+justify-content: space-between;
+align-items: center;     /* end start center */
+margin-top: 30px
+">
+
+<div style="background-color: lightpink; 
+width: 100px;">100px </div>
+<div style="background-color: lightblue; 
+width: 100px;">100px </div>
+<div style="background-color: lightcoral; 
+width: 100px;">100px </div>
+</div>
+
+</body>
+
+</html>
